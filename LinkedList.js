@@ -5,6 +5,18 @@ class LinkedList {
         this.size = 0;
     }
 
+    head(){
+        return this.head
+    }
+
+    tail(){
+        return this.tail
+    }
+
+    size(){
+        return this.size
+    }
+
     append(value) {
         if (!this.head) {
             const newNode = new Node(value);
